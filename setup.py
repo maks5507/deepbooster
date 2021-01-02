@@ -9,7 +9,8 @@ import setuptools.command.build_py as build_py
 setup_kwargs = dict(
     name='deepbooster',
     version='0.0.1',
-    packages=['deepbooster'],
+    packages=['deepbooster', 'deepbooster.dataset',
+              'deepbooster.launcher', 'deepbooster.trainer'],
     install_requires=[
         'torch',
         'typing',
