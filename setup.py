@@ -13,8 +13,6 @@ setup_kwargs = dict(
     install_requires=[
         'torch',
         'typing',
-        'json',
-        'tqdm',
         'rmq_interface'
     ],
     setup_requires=[
