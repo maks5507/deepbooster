@@ -1,0 +1,5 @@
+../*.py
+../deepbooster/*.py
+../deepbooster/dataset/*.py
+../deepbooster/trainer/*.py
+../deepbooster/launcher/*.py

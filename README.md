@@ -93,3 +93,15 @@ The RMQ needs to be setup (convenient scripts to follow) as follows:
 * Bind both queues to the `amq.topic` exchange
 * Purge both ignition and sync queues before running a new training procedure
 
+## Codestyle check
+
+Before making a pull-request, please check the coding style with bash script in `codestyle` directory. Make sure that your folder is included in `codestyle/pycodestyle_files.txt` list.
+
+Your changes will not be approved if the script indicates any incongruities (this does not apply to 3rd-party code). 
+
+Usage:
+
+```bash
+cd codestyle
+sh check_code_style.sh
+```
